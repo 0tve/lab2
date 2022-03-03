@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -85,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.remove,
                   color: Colors.black,
                 ),
@@ -95,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.add,
                   color: Colors.black,
                 ),
@@ -110,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.transparent),
                 ),
-                child: Text(
+                child: const Text(
                   'Сбросить',
                   style: TextStyle(
                     color: Colors.grey,
